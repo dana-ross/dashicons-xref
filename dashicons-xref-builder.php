@@ -1,7 +1,7 @@
 <?php
 
 // Remove this to run
-//die();
+die();
 
 $doc = new DomDocument();
 $doc->loadHtml(file_get_contents('http://melchoyce.github.io/dashicons/'));
